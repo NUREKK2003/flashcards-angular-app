@@ -1,0 +1,22 @@
+.menu-bar {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 4fr 2fr;
+}
+
+.menu-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    justify-content: end;
+}
