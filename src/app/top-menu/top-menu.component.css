@@ -1,0 +1,39 @@
+.menu-bar {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 4fr 2fr;
+  background-color: var(--primary-color);
+}
+
+.menu-list {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: end;
+  padding: 5px;
+  gap: 5px;
+  background-color: var(--primary-color);
+}
+.search-form > input {
+  border-radius: 5px;
+  border: 2px solid var(--shadow-color);
+  width: 80%;
+  max-width: 200px;
+  background-color: var(--thirdnary-color);
+}
+
+.search-button {
+  display: flex;
+  border: 0;
+  background-color: transparent;
+}

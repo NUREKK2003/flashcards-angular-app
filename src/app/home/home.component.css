@@ -1,0 +1,117 @@
+.introduction {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  flex: 1;
+}
+.title {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+}
+.title-box > .title-text {
+  font-size: 10em;
+}
+.title-box > .subtitle-text {
+  font-size: 3.5em;
+}
+.info-stats {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.stats-box {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.stats-box > span {
+  font-size: 2em;
+}
+.quote-text {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.quote-text > i,
+h4 {
+  padding: 0;
+  margin: 2px;
+}
+.quote-text > i {
+  font-size: 2em;
+}
+.flashcards-symbol {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flashcards-symbol > img {
+  max-width: 90%;
+  height: auto;
+  align-items: center;
+  align-content: center;
+}
+
+.start-view {
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--thirdnary-color);
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--primary-color);
+}
+
+.info-section > * {
+  align-content: center;
+  padding: 30px;
+}
+.info-section > *:nth-child(odd) {
+  display: flex;
+  justify-content: flex-start;
+}
+.info-section > *:nth-child(even) {
+  display: flex;
+  justify-content: flex-end;
+}
+.info-section > * > .info-box {
+  width: 70%;
+  background-color: var(--thirdnary-color);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 24px 0px var(--shadow-color);
+}
+
+.info-section > * > .info-box > h2 {
+  font-size: 2em;
+}
+
+.info-section > * > .info-box > p {
+  font-size: 1.5em;
+}
