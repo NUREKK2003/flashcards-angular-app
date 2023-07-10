@@ -80,3 +80,38 @@ h4 {
   flex-direction: column;
   background-color: var(--thirdnary-color);
 }
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--primary-color);
+}
+
+.info-section > * {
+  align-content: center;
+  padding: 30px;
+}
+.info-section > *:nth-child(odd) {
+  display: flex;
+  justify-content: flex-start;
+}
+.info-section > *:nth-child(even) {
+  display: flex;
+  justify-content: flex-end;
+}
+.info-section > * > .info-box {
+  width: 70%;
+  background-color: var(--thirdnary-color);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 24px 0px var(--shadow-color);
+}
+
+.info-section > * > .info-box > h2 {
+  font-size: 2em;
+}
+
+.info-section > * > .info-box > p {
+  font-size: 1.5em;
+}
