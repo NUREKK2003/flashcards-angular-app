@@ -7,16 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TopMenuComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HomeComponent
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, HomeComponent, TopMenuComponent],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

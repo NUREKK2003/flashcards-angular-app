@@ -1,17 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { TopMenuComponent } from '.././top-menu/top-menu.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule],
-  template: `
-    <p>
-      home works!
-    </p>
-  `,
-  styleUrls: ['./home.component.css']
+  imports: [CommonModule, TopMenuComponent],
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css'],
 })
-export class HomeComponent {
-
-}
+export class HomeComponent {}
