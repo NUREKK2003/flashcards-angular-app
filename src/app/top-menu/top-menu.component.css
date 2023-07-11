@@ -20,7 +20,7 @@ header {
 
 .search-form {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 5px;
   gap: 5px;
   background-color: var(--primary-color);

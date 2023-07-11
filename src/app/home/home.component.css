@@ -49,7 +49,7 @@
   padding: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .quote-text > i,
 h4 {

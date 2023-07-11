@@ -1,0 +1,19 @@
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul > li {
+  margin: 10px;
+}
+ul > li > label {
+  margin-right: 10px;
+}
+ul > li > input[type="text"],
+ul > li > input[type="password"],
+ul > li > input[type="email"] {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+h2 {
+  margin-left: 48px;
+}

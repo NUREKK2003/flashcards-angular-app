@@ -1,0 +1,17 @@
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul > li {
+  margin: 10px;
+}
+ul > li > label {
+  margin-right: 10px;
+}
+ul > li > input[type="text"] {
+  border-radius: 3px;
+  border: 1px solid black;
+}
+h2 {
+  margin-left: 48px;
+}
