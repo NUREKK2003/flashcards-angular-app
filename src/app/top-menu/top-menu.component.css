@@ -3,6 +3,7 @@
   align-items: center;
   grid-template-columns: 1fr 4fr 2fr;
   background-color: var(--primary-color);
+  height: var(--top-bar-height);
 }
 
 .menu-list {

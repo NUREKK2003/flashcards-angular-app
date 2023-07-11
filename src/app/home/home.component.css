@@ -74,8 +74,8 @@ h4 {
 }
 
 .start-view {
-  height: 100vh;
-  min-height: 100vh;
+  height: calc(100vh - var(--top-bar-height));
+  min-height: calc(100vh - var(--top-bar-height));
   display: flex;
   flex-direction: column;
   background-color: var(--thirdnary-color);

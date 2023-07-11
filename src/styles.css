@@ -13,4 +13,5 @@ body {
   --secondary-color: #fa8c4d;
   --accent-color: #c64a02;
   --shadow-color: #311200;
+  --top-bar-height: 60px;
 }
